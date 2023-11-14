@@ -13,7 +13,7 @@ function SortSelector({ onSelectSortOrder, selectedSortOrder }: Props) {
     { value: "name", label: "Name" },
     { value: "-released", label: "Release date" },
     { value: "-metacritic", label: "Popularity" },
-    { value: "-rating", label: "Rating" },
+    { value: "-rating", label: "Average Rating" },
   ];
 
   let newsortOrder = sortOrders.find(
